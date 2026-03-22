@@ -37,10 +37,10 @@ namespace QLSinhVien
                     MessageBox.Show("Đăng nhập thành công!", "Thông báo");
 
                     // Mở form Sinh Viên
-                    frmSinhVien frmSV = new frmSinhVien(); // Tạm thời tạo form trống, sau này bạn thay bằng frmSinhVien
+                    frmSinhVien frmSV = new frmSinhVien(); 
                     frmSV.Show();
 
-                    this.Hide(); // Ẩn form đăng nhập đi
+                    this.Hide(); 
                 }
                 else
                 {
@@ -48,5 +48,28 @@ namespace QLSinhVien
                 }
             }
         }
+<<<<<<< Updated upstream
+=======
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }
